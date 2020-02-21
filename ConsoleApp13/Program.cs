@@ -9,7 +9,7 @@ namespace ConsoleApp13
 
             DateTime t1 = DateTime.Parse("2000-08-15 13:05:58");
             DateTime t2 = DateTime.Parse("2000-08-15T13:05:58Z");
-
+            var teste = 123;
             Console.WriteLine($"t1: {t1}");
             Console.WriteLine($"t1 kind: {t1.Kind}");
             Console.WriteLine($"t1 to local: {t1.ToLocalTime()}");
